@@ -1,6 +1,6 @@
 #!/bin/bash
 
-21driver() {
+php() {
     echo "Instalando pacote de versões do PHP ao repositório"
     sudo add-apt-repository ppa:ondrej/php
 
@@ -36,4 +36,4 @@ nodejs() {
     done
 }
 
-21driver
+php
